@@ -9,25 +9,37 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
-<header class="bg-dark text-white p-3 text-center">
-        <img src="logo-sekolah.png" alt="Logo Sekolah" height="80" class="mr-3">
-    </header>
+<nav class="navbar bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="" alt="" width="30" height="24">
+    </a>
 
-    <nav class="bg-light p-3 text-center">
-        <a href="#" class="mr-3">Home</a>
-        <a href="#" class="mr-3">Tim</a>
-        <a href="#" class="mr-3">Berita</a>
-        <a href="#" class="mr-3">Dashboard</a>
-        <a href="#">Log out</a>
-    </nav>
+<ul class="nav justify-content-end ">
+  <li class="nav-item m-2">
+    <a class="nav-link active" aria-current="page" href="#">Home</a>
+  </li>
+  <li class="nav-item m-2">
+    <a class="nav-link" href="#">About</a>
+  </li>
+  <li class="nav-item m-2">
+    <a class="nav-link" href="#">Berita</a>
+  </li>
+  <li class="nav-item m-2" >
+  <a class="btn btn-primary btn-block " href="login.html">Login</a>
 
+
+  </li>
+</ul>
+</div>
+</nav>
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
-                <img src="fto/kelompok.jpg" alt="Anggota" class="img-fluid">
+                <img src="fto/kelompok.jpg" class="img-fluid" width="500">
             </div>
             <div class="col-md-6">
-                <h2 class="mb-3">Hai Selamat Datang Di Website</h2>
+                <h2 class="mb-3">Hai Selamat Datang Di Website</h2><br>
                 <p class="text-muted">"Hasil Kerja Kami Bertiga"</p>
                 <p>Disini Anda Dapat Menemukan Informasi Tentang Anggota Kami dan
                     Beberapa Berita YAng Telah Kami Buat Sedemikian Rupa, Dan Kedepa
