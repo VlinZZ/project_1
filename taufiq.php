@@ -60,7 +60,7 @@ $userProfile = [
     </div>
 </div>
 <h1 style="margin-bottom : 10px"></h1>
-<a href="about.php" style="margin : 130px; font-size:20px; font-family: Cambria,Times New Roman,serif;"><button style="padding: 7px 14px; width: 22%;">Back To About</button></a>
+<a href="index.php" style="margin : 130px; font-size:20px; font-family: Cambria,Times New Roman,serif;"><button style="padding: 7px 14px; width: 22%;">Back To About</button></a>
 <!-- Include Bootstrap JS (Optional for interactive features) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ksm1fpv+Pe6inMX+dQ0iIeMb60ayrO1r5jyyxYFJF5whClc52UPPnxI5BeQK7V/7" crossorigin="anonymous"></script>
 </body>
