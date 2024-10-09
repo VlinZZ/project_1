@@ -16,48 +16,119 @@
 </head>
 <body>
 <style>
-body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur862.ani), url(http://cur.cursors-4u.net/cursors/cur-9/cur862.png), progress !important;}
-img { border-radius: 25px;}
-</style>
+body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur862.ani), url(http://cur.cursors-4u.net/cursors/cur-9/cur862.png), progress !important;
+    }
+.img { 
+    border-radius: 25px;
+    }
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Ensures cards wrap to the next line on smaller screens */
+  margin: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 100%; /* Responsive width */
+  max-width: 250px; /* Maximum width for each card */
+  flex: 1 1 250px; /* Flexbox behavior for responsiveness */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  max-height: 300px; /* Ensures the image doesn't stretch too much */
+}
+
+h3 {
+  font-size: 1.5rem; /* Responsive font size */
+}
+
+p {
+  font-size: 1rem; /* Responsive font size */
+  margin: 10px 0;
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Makes button fill the width of the card */
+  font-size: 1rem; /* Responsive font size */
+}
+
+button:hover {
+  background-color: #404040;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+  .card-container {
+    gap: 10px; /* Reduce gap between cards on smaller screens */
+  }
+
+  h3 {
+    font-size: 1.25rem; /* Smaller font size for headings */
+  }
+
+  button {
+    font-size: 0.9rem; /* Slightly smaller button text */
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 90%; /* Card takes up most of the screen on small devices */
+  }
+
+  h3 {
+    font-size: 1.1rem; /* Smaller heading size */
+  }
+
+  button {
+    font-size: 0.85rem; /* Even smaller button text for mobile */
+  }
+}
+
+
+    </style>
 <script type="text/javascript" src="https://drvee07.github.io/loc/rev.js"></script>
 <div class="container mt-5">
         <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="assets/revalino.jpg" width="260px" height="200px" border-radius="35px"></img>
-                        <hr>
-                        <h5 class="card-title">Revalino Jihadil Lopa</h5>
-                        <p class="text-black">Informasi tentang Saya</p>
-                        <h1 style="margin-bottom : 15px"></h1>
-                        <a href="valin.php" class="btn btn-primary">Lihat</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="assets/farel.jpg" width="270px" height="200px border-radius="35px"></img>
-                        <hr>
-                        <h5 class="card-title">Farel Yuhandriza Putra</h5>
-                        <p class="card-text">Informasi tentang Saya</p>
-                        <h1 style="margin-bottom : 15px"></h1>
-                        <a href="rell.php" class="btn btn-primary">Lihat</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="assets/taufiq.jpg" width="305px" height="200px" border-radius="35px"></img>
-                        <hr>
-                        <h5 class="card-title">Taufiq Hidayat</h5>
-                        <p class="card-text">Informasi tentang Saya</p>
-                        <h1 style="margin-bottom : 15px"></h1>
-                        <a href="taufiq.php" class="btn btn-primary">Lihat</a>
-                    </div>
-                </div>
-            </div>
+        <div class="card-container">
+  <div class="card">
+    <img src="assets/revalino.jpg" alt="Revalino Jihadil Lopa">
+    <h3>Revalino Jihadil Lopa</h3>
+    <p>Informasi tentang Saya</p>
+    <a href="about/valin.php"><button style="border-radius: 20px;">Lihat</button></a>
+  </div>
+
+  <div class="card">
+    <img src="assets/farel.jpg" alt="Farel Yuhandriza Putra">
+    <h3>Farel Yuhandriza Putra</h3>
+    <p>Informasi tentang Saya</p>
+    <a href="about/rell.php"><button style="border-radius: 20px;">Lihat</button></a>
+  </div>
+
+  <div class="card">
+    <img src="assets/taufiq.jpg" alt="Taufiq Hidayat">
+    <h3>Taufiq Hidayat</h3>
+    <h1 style="margin-bottom: 32px;"></h1>
+    <p>Informasi tentang Saya</p>
+    <a href="about/taufiq.php"><button style="border-radius: 20px;">Lihat</button></a>
+  </div>
+</div>
+
         </div>
     </div>
 <!-- Include Bootstrap JS (Optional for interactive features) -->
