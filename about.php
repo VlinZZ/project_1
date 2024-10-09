@@ -103,6 +103,7 @@ button:hover {
 
     </style>
 <script type="text/javascript" src="https://drvee07.github.io/loc/rev.js"></script>
+<h1 class="nprinsleyy nprinsley-text-glitchan" style="font-size:50px; font-family: Cambria,Times New Roman,serif;" align="center"><font color="black">About Us </font></h1>
 <div class="container mt-5">
         <div class="row">
         <div class="card-container">

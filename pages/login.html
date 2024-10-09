@@ -17,6 +17,20 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
+        button {
+          background-color: #000000;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          width: 100%; /* Makes button fill the width of the card */
+          font-size: 1rem; /* Responsive font size */
+        }
+        
+        button:hover {
+          background-color: #404040;
+        }
     </style>
 </head>
 <body>
@@ -32,8 +46,10 @@
             <label for="password">Password</label>
             <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
         </div>
-        <button type="submit" class="btn btn-primary btn-block">Login</button>
-        
+        <a><button type="submit">Login</button></a>
+        <h1  style="margin-bottom: 10px;"></h1>
+        <a href="r" style="margin-left: 150px;"> ? belum punya akun register</a>
+    </div>
     </form>
 </div>
 
