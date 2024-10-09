@@ -25,7 +25,7 @@ img { border-radius: 25px;}
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <img src="assets/revalino.jpg" width="310px" height="280px" border-radius="35px"></img>
+                        <img src="assets/revalino.jpg" width="260px" height="200px" border-radius="35px"></img>
                         <hr>
                         <h5 class="card-title">Revalino Jihadil Lopa</h5>
                         <p class="text-black">Informasi tentang Saya</p>
@@ -37,7 +37,7 @@ img { border-radius: 25px;}
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <img src="assets/farel.jpg" width="310px" height="280px" border-radius="35px"></img>
+                        <img src="assets/farel.jpg" width="270px" height="200px border-radius="35px"></img>
                         <hr>
                         <h5 class="card-title">Farel Yuhandriza Putra</h5>
                         <p class="card-text">Informasi tentang Saya</p>
@@ -49,7 +49,7 @@ img { border-radius: 25px;}
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <img src="assets/taufiq.jpg" width="310px" height="280px" border-radius="35px"></img>
+                        <img src="assets/taufiq.jpg" width="305px" height="200px" border-radius="35px"></img>
                         <hr>
                         <h5 class="card-title">Taufiq Hidayat</h5>
                         <p class="card-text">Informasi tentang Saya</p>
