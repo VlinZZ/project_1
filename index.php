@@ -62,6 +62,7 @@
     <?php
     include("about.php")
     ?>
+    <hr class=" container mt-5 mb-2">
     <?php
     include("berita.php")
     ?>
