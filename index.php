@@ -17,7 +17,7 @@
     <nav class="navbar bg-body-tertiary">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="fto\logo.png" alt="" width="70" height="50">
+                <img src="assets\logo.png" alt="" width="70" height="50">
             </a>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
-                <img src="fto/kelompok.jpg" class="img-fluid" width="500">
+                <img src="assets/kelompok.jpg" class="img-fluid" width="500">
             </div>
             <div class="col-md-6">
                 <h2 class="mb-3">Hai Selamat Datang Di Website</h2><br>
