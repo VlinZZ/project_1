@@ -17,7 +17,7 @@
     <nav class="navbar bg-body-tertiary">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="" alt="" width="30" height="24">
+                <img src="fto\logo.png" alt="" width="70" height="50">
             </a>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
                             <a class="nav-link m-2" href="#">Berita</a>
                         </li>
                         <li>
-                            <a class="btn btn-primary btn-block m-2 bg-success bg-gradient fw-mediumn text-light" href="login.html">Login</a>
+                            <a class="btn btn-primary btn-block m-2 bg-black fw-mediumn text-light" href="login.html">Login</a>
                         </li>
                     </ul>
                 </div>
@@ -57,9 +57,11 @@
             </div>
         </div>
     </div>
-<?php
-include("about.php")
-?>
+
+    <hr class=" container mt-5 mb-2">
+    <?php
+    include("about.php")
+    ?>
     <?php
     include("berita.php")
     ?>
