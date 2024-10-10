@@ -4,7 +4,7 @@
 <section id="berita-section" class="berita-section container mt-5">
     <h1 class="mb-3 text-center"><strong>Berita</strong></h1>
     <div class="d-flex justify-content-end mb-3">
-        <a href="Tambah_Berita.html" class="btn-add-news">Tambah Berita</a>
+        <a href="pages/Tambah_Berita.html" class="btn-add-news">Tambah Berita</a>
     </div>
     <div class="row">
         <!-- Berita 1 -->
