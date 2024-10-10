@@ -35,7 +35,7 @@
                             <a class="nav-link m-2" href="#">Berita</a>
                         </li>
                         <li>
-                            <a class="btn btn-primary btn-block m-2 bg-black fw-mediumn text-light" href="login.html">Login</a>
+                            <a class="btn btn-primary btn-block m-2 bg-black fw-mediumn text-light" href="pages/login.html">Login</a>
                         </li>
                     </ul>
                 </div>
