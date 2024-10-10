@@ -1,0 +1,14 @@
+/* styles.css */
+
+/* Gaya Umum */
+body, a:hover {
+    cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur862.ani), 
+           url(http://cur.cursors-4u.net/cursors/cur-9/cur862.png), 
+           progress !important;
+}
+
+.img {
+    border-radius: 25px;
+}
+
+/* Additional Gaya Umum Jika Diperlukan */

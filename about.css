@@ -1,0 +1,86 @@
+/* about.css */
+
+/* Namespace untuk About Section */
+#about-section .about-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+#about-section .about-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    flex: 1 1 250px;
+    transition: transform 0.3s;
+}
+
+#about-section .about-card:hover {
+    transform: scale(1.05);
+}
+
+#about-section .about-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+}
+
+#about-section .card-title {
+    font-size: 1.5rem;
+}
+
+#about-section .card-text {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+#about-section .btn-about {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#about-section .btn-about:hover {
+    background-color: #404040;
+}
+
+/* Media Queries untuk Responsif */
+@media (max-width: 768px) {
+    #about-section .about-card-container {
+        gap: 10px;
+    }
+
+    #about-section .card-title {
+        font-size: 1.25rem;
+    }
+
+    #about-section .btn-about {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #about-section .about-card {
+        width: 90%;
+    }
+
+    #about-section .card-title {
+        font-size: 1.1rem;
+    }
+
+    #about-section .btn-about {
+        font-size: 0.85rem;
+    }
+}
