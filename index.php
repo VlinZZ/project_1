@@ -49,7 +49,7 @@
                         <a class="nav-link m-2" href="#berita-section">Berita</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-primary btn-block m-2 bg-black fw-medium text-light" href="pages/login.html">Login</a>
+                        <a class="btn btn-block m-2 bg-black fw-medium text-light btn-add-news" href="pages/login.html">Login</a>
                     </li>
                 </ul>
             </div>
