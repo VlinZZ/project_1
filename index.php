@@ -55,17 +55,19 @@
             </div>
         </div>
     </nav>
-
     <!-- Konten Utama -->
+<div class="bg-body-tertiary">    
     <div class="container mt-5 pt-5">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="assets/kelompok.jpg" class="img-fluid" alt="Kelompok" width="500">
-            </div>
-            <div class="col-md-6">
-                <h2 class="mb-3">Hai, Selamat Datang di Website</h2>
-                <p class="text-muted">"Hasil Kerja Kami Bertiga"</p>
-                <p>Di sini Anda dapat menemukan informasi tentang anggota kami dan beberapa berita yang telah kami buat. Anda juga dapat menambah berita di dalam website ini.</p>
+        <div class="card p-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/kelompok.jpg" class="img-fluid" alt="Kelompok" width="500">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-3">Hai, Selamat Datang di Website</h2>
+                    <p class="text-muted">"Hasil Kerja Kami Bertiga"</p>
+                    <p>Di sini Anda dapat menemukan informasi tentang anggota kami dan beberapa berita yang telah kami buat. Anda juga dapat menambah berita di dalam website ini.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -76,7 +78,7 @@
     <?php include("about.php"); ?>
     <hr class="container mt-5 mb-2">
     <?php include("berita.php"); ?>
-
+</div>
     <!-- Bootstrap 5.3.3 JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+DmZhu9Kq5zY1N4NjZkQ+gxGjkM95" crossorigin="anonymous"></script>
 </body>

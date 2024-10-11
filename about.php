@@ -16,9 +16,10 @@
 <section id="about-section" class="about-section container mt-5">
 <script type="text/javascript" src="https://drvee07.github.io/loc/rev.js"></script>
    <h1 class="nprinsleyy nprinsley-text-glitchan" style="font-size:50px; font-family: Cambria,Times New Roman,serif;" align="center"><font color="black">About Us </font></h1>
+   <div class="card p-3">
     <div class="row">
         <div class="about-card-container d-flex justify-content-center gap-4 flex-wrap">
-            <div class="about-card card">
+        <div class="about-card card">
                 <img src="assets/revalino.jpg" class="card-img-top" alt="Revalino Jihadil Lopa">
                 <div class="card-body">
                     <h3 class="card-title">Revalino Jihadil Lopa</h3>
@@ -46,4 +47,5 @@
             </div>
         </div>
     </div>
+   </div>
 </section>

@@ -1,6 +1,6 @@
-/* styles.css */
-
-/* Gaya Umum */
+body {
+    background-color: #f1f1f1;
+}
 body, a:hover {
     cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur862.ani), 
            url(http://cur.cursors-4u.net/cursors/cur-9/cur862.png), 
@@ -10,5 +10,3 @@ body, a:hover {
 .img {
     border-radius: 25px;
 }
-
-/* Additional Gaya Umum Jika Diperlukan */
