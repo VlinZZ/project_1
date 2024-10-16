@@ -1,0 +1,79 @@
+ /* Mengatur body agar elemen di tengah secara vertikal dan horizontal */
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Mengatur tampilan container form */
+  .Register-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Mengatur judul form */
+  .Register-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+
+  /* Mengatur tampilan input dan label */
+  .Register-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .Register-container input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  /* Mengatur tampilan checkbox */
+  .form-check {
+    margin-bottom: 0px;
+  }
+
+  .form-check input {
+    margin-left: -183px;
+  }
+
+  /* Mengatur tampilan tombol */
+  .btn-daftar {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .btn-daftar:hover {
+    background-color: #333;
+  }
+
+  .Register-container small a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+
+  .Register-container small a:hover {
+    text-decoration: underline;
+  }

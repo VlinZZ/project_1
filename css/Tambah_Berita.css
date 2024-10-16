@@ -1,0 +1,14 @@
+body {
+    background-color: #f8f9fa; /* Opsional: memberikan latar belakang abu-abu muda */
+  }
+  .back-icon {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    font-size: 24px;
+    color: #dc3545;
+    text-decoration: none;
+  }
+  .form-container {
+    position: relative; /* Agar posisi icon back mengacu pada container ini */
+  }
