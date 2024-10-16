@@ -4,105 +4,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Login</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(45deg, #ff4800fb, #ff8800, #eeff00, #00ffdd, #0066ff);
-            background-size: 400% 400%;
-            animation: gradientBG 10s ease infinite;
-        }
+    <link rel="stylesheet" href="../css/login.css">
 
-        @keyframes gradientBG {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-
-        .login-container {
-            width: 350px;
-            padding: 40px;
-            background: rgba(255, 255, 255, 0.8);
-            border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            animation: fadeInUp 1.5s ease-out forwards;
-            opacity: 0;
-            transform: translateY(50px);
-        }
-
-        @keyframes fadeInUp {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .login-container h2 {
-            margin-bottom: 20px;
-            color: #333;
-        }
-
-        .login-container input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-            font-size: 16px;
-        }
-
-        .login-container button {
-            width: 100%;
-            padding: 10px;
-            background: #333;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background 0.3s ease;
-        }
-
-        .login-container button:hover {
-            background: #555;
-        }
-
-        .login-container a {
-            display: block;
-            margin-top: 15px;
-            color: #007BFF;
-            text-decoration: none;
-            font-size: 14px;
-        }
-
-        .login-container a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 <body>
-    <div class="login-container">
-        <a href="../index.php" class="fa fa-arrow-left" aria-hidden="true"> Back</a>
-        <h2 align="center">Form Login</h2>
+    <div class="goblok">
         <form>
-            <i class="fa fa-user"> Username</i>
-            <input type="text" placeholder="Enter your username" required>
-            <i class="fa fa-lock"> Password</i>
-            <input type="password" placeholder="Enter your password" required>
-            <button hreff="../index.php" type="submit">Login</button>
-            <a href="register.html">Belum punya akun? Register</a>
+            <div class="anjay">
+                <a href="../index.php"><i class="fa fa-arrow-left"> Kembali</i></a>
+            </div>
+            <h1>Login</h1>
+            <div class="uwu">
+                <i class="fa fa-user"> User</i>
+                   <input type="text" placeholder="Masukan Username" required>
+                        <i class="fa fa-lock"> Password</i>
+                        <input type="password" placeholder="Masukan Password" required>
+                   <input type="submit" value="Login">
+                <a href="register.html">Belum punya account? Register</a>
+            </div>
         </form>
     </div>
 </body>
